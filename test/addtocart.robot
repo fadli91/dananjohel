@@ -9,6 +9,7 @@ Resource		../../Simplisafe/pages/havenpdp.robot
 Resource		../../Simplisafe/pages/cart.robot
 Resource		../../Simplisafe/pages/shipping.robot
 Resource		../../Simplisafe/pages/payment.robot
+Resource		../../Simplisafe/pages/ordersum.robot
 Test Setup 		DriverBuilder.Open Browser to the Home pages	https://us.qa.commerce.simplisafe.com/
 Test Teardown	DriverBuilder.Close Website
 
@@ -40,3 +41,7 @@ REG_01 - Verify User is able to open Homepage
 	payment.Enter Fields
 	payment.Verify Submit Button
 	payment.Click Submit Button
+	ordersum.Verify Order Summary Page
+	ordersum.Verify Back To Home Page Button
+	ordersum.Click Back To Home Page Button
+	homepage.Verify Simplisafe Homepage
