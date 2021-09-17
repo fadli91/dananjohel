@@ -14,7 +14,7 @@ Test Setup 		DriverBuilder.Open Browser to the Home pages	https://us.qa.commerce
 Test Teardown	DriverBuilder.Close Website
 
 *** Test Cases ***
-REG_01 - Verify User is able to open Homepage
+REG_01 - Verify User is able to checkout using packages
 	homePage.Verify Simplisafe Homepage
 	homePage.Verify Shop Now Button
 	homePage.Click Shop Now Button
